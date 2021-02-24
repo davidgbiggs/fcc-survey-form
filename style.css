@@ -1,0 +1,98 @@
+:root {
+  font-family: Arial;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#description {
+  text-align: center;
+  margin-top: 4px;
+}
+
+#survey-form {
+  margin: auto;
+  width: 350px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.input-group {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  outline: none;
+  border-radius: 3px;
+  border: 0.5px solid lightgray;
+  padding: 7px;
+  font-size: 15px;
+  transition: border 0.2s;
+}
+
+label {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  /*   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  /*   outline: none; */
+  border: 1px solid gray;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  /*   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  /*   outline: none; */
+  border: 1px solid black;
+}
+
+#more-info {
+  resize: none;
+  font-family: Arial;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  transition: background-color 0.2s;
+  margin: 5px auto;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: lightgray;
+}
+
+select {
+  cursor: pointer;
+}
+
+#dropdown {
+  width: 100%;
+}
+
+.option-container {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 7px;
+  margin: 10px 0;
+}
