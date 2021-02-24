@@ -1,4 +1,4 @@
-# Tribute Page
+# Survey Form
 
 This is a part of my FreeCodeCamp [Responsive Web Design Certification](https://www.freecodecamp.org/learn). It's the second project in the module. The code passes all of the tests in the [project requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form). See for yourself!
 
