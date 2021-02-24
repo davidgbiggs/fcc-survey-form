@@ -1,5 +1,91 @@
 <!DOCTYPE html>
 <html>
   <head> </head>
-  <body></body>
+  <body>
+    <main>
+      <div id="heading-container">
+        <h1 id="title">Basic Info</h1>
+        <p id="description">
+          We're looking for basic information about yourself.
+        </p>
+      </div>
+      <form id="survey-form">
+        <div class="input-group">
+          <label id="name-label" for="name"> Name </label>
+          <input placeholder="Full Name" type="text" id="name" required />
+        </div>
+        <div class="input-group">
+          <label id="email-label" for="email"> Email </label>
+          <input placeholder="Email" type="email" id="email" required />
+        </div>
+        <div class="input-group">
+          <label id="number-label" for="number"> Age </label>
+          <input placeholder="13" type="number" min="13" max="99" id="number" />
+        </div>
+        <div class="input-group">
+          <label for="dropdown">Reason for Submission</label>
+          <select id="dropdown">
+            <option>Because I feel like it</option>
+            <option>Because I want to see if David can code</option>
+            <option>For fun</option>
+          </select>
+        </div>
+        <div class="input-group option-container" id="gender-container">
+          <label>Gender</label>
+          <label for="gender-male">
+            <input id="gender-male" value="male" type="radio" name="gender" />
+            Male
+          </label>
+          <label for="gender-female">
+            <input
+              id="gender-female"
+              value="female"
+              type="radio"
+              name="gender"
+            />
+            Female
+          </label>
+          <label for="gender-other">
+            <input id="gender-other" value="other" type="radio" name="gender" />
+            Other
+          </label>
+        </div>
+        <div class="input-group option-container" id="favorite-food-container">
+          <label>Favorite Foods</label>
+          <label for="favorite-pizza">
+            <input
+              id="favorite-pizza"
+              type="checkbox"
+              name="food"
+              value="pizza"
+            />
+            Pizza
+          </label>
+          <label for="favorite-pasta">
+            <input
+              id="favorite-pasta"
+              type="checkbox"
+              name="food"
+              value="pasta"
+            />
+            Pasta
+          </label>
+          <label for="favorite-wings">
+            <input
+              id="favorite-wings"
+              type="checkbox"
+              name="food"
+              value="wings"
+            />
+            Wings
+          </label>
+        </div>
+        <div class="input-group">
+          <label for="more-info">More Info</label>
+          <textarea id="more-info"></textarea>
+        </div>
+        <input id="submit" type="submit" />
+      </form>
+    </main>
+  </body>
 </html>
